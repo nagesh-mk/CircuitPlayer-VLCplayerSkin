@@ -1,0 +1,186 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Circuit player" author="viper" email="Unknown" webpage="http://www.videolan.org/vlc/"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="circuit6" file="circuit6.png" alphacolor="#FF00FF"/>
+  <Bitmap id="pause1" file="pause1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="play" file="play.png" alphacolor="#FF00FF"/>
+  <Bitmap id="wire" file="wire.png" alphacolor="#FF00FF"/>
+  <Bitmap id="wire1" file="wire1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="wired" file="wired.png" alphacolor="#FF00FF"/>
+  <Bitmap id="wireu" file="wireu.png" alphacolor="#FF00FF"/>
+  <Bitmap id="close" file="close.png" alphacolor="#FF00FF"/>
+  <Bitmap id="close1" file="close1.png" alphacolor="#FF00FF">
+    <SubBitmap id="close2" x="10" y="11" height="16" width="18"/>
+  </Bitmap>
+  <Bitmap id="max" file="max.png" alphacolor="#FF00FF"/>
+  <Bitmap id="max1" file="max1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="min" file="min.png" alphacolor="#FF00FF"/>
+  <Bitmap id="min1" file="min1.png" alphacolor="#FF00FF">
+    <SubBitmap id="hideaudio" x="10" y="10" height="16" width="17"/>
+  </Bitmap>
+  <Bitmap id="next" file="next.png" alphacolor="#FF00FF"/>
+  <Bitmap id="prev" file="prev.png" alphacolor="#FF00FF"/>
+  <Bitmap id="fast" file="fast.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slow" file="slow.png" alphacolor="#FF00FF"/>
+  <Bitmap id="mute" file="mute.png" alphacolor="#FF00FF"/>
+  <Bitmap id="sound" file="sound.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist" file="playlist.png" alphacolor="#FF00FF"/>
+  <Bitmap id="stop3" file="stop3.png" alphacolor="#FF00FF"/>
+  <Bitmap id="stop1" file="stop1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="sneek" file="sneek.png" alphacolor="#FF00FF"/>
+  <Bitmap id="sneek1" file="sneek1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="video" file="video.png" alphacolor="#FF00FF"/>
+  <Bitmap id="frame2" file="frame2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slides" file="slides.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slidev" file="slidev.png" alphacolor="#FF00FF"/>
+  <Bitmap id="pause3" file="pause3.png" alphacolor="#FF00FF"/>
+  <Bitmap id="play3" file="play3.png" alphacolor="#FF00FF"/>
+  <Bitmap id="fast1" file="fast1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="next1" file="next1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="prev2" file="prev2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slow1" file="slow1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="snap" file="snap.png" alphacolor="#FF00FF"/>
+  <Bitmap id="audio1" file="audio1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="audio2" file="audio2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="video1" file="video1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist1" file="playlist1.png" alphacolor="#FF00FF"/>
+  <Font id="font" file="font.ttf"/>
+  <Bitmap id="blue" file="blue.png" alphacolor="#FF00FF"/>
+  <Bitmap id="blue1" file="blue1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="arrow" file="arrow.png" alphacolor="#FF00FF"/>
+  <Bitmap id="plus" file="plus.png" alphacolor="#FF00FF"/>
+  <Bitmap id="plus1" file="plus1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slide4" file="slide4.png" alphacolor="#FF00FF"/>
+  <Bitmap id="add" file="add.png" alphacolor="#FF00FF"/>
+  <Bitmap id="add1" file="add1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="save" file="save.png" alphacolor="#FF00FF"/>
+  <Bitmap id="sort" file="sort.png" alphacolor="#FF00FF"/>
+  <Bitmap id="load" file="load.png" alphacolor="#FF00FF"/>
+  <Bitmap id="repeat1" file="repeat1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="repeat2" file="repeat2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="shuffle" file="shuffle.png" alphacolor="#FF00FF"/>
+  <Bitmap id="shuffle1" file="shuffle1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="equ" file="equ.png" alphacolor="#FF00FF"/>
+  <Bitmap id="about" file="about.png" alphacolor="#FF00FF"/>
+  <Bitmap id="aboutw" file="aboutw.png" alphacolor="#FF00FF"/>
+  <Bitmap id="repeat" file="repeat.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq1" file="eq1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="on" file="on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="off" file="off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eqs" file="eqs.png" alphacolor="#FF00FF"/>
+  <Bitmap id="equt" file="equt.png" alphacolor="#FF00FF"/>
+  <Bitmap id="title1" file="title1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="time2" file="time2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="about1" file="about1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="aboutq" file="aboutq.png" alphacolor="#FF00FF"/>
+
+  <Window id="audio">
+    <Layout id="INTEL" width="644" height="380">
+      <Image id="ic1" x="31" y="49" image="circuit6" action="move" help="core 0"/>
+      <Image id="ic2" x="282" y="49" image="circuit6" action="move" help="core 1"/>
+      <Image id="wire1.1" x="482" y="29" image="wireu" action="move"/>
+      <Image id="wire1.2" x="452" y="30" image="wireu" action="move"/>
+      <Image id="wire1.3" x="131" y="30" image="wireu" action="move"/>
+      <Button up="close1" over="close" action="vlc.quit()" id="close1.1" x="478" y="-3" lefttop="righttop" rightbottom="righttop" tooltiptext="close vlc"/>
+      <Button up="min1" over="min" action="vlc.minimize()" id="min1.1" x="447" y="-3" tooltiptext="minimize"/>
+      <Checkbox state="vlc.isPlaying" up1="play" up2="pause1" action1="vlc.play()" action2="vlc.pause()" tooltiptext1="Play" tooltiptext2="pause" id="play_pause" x="142" y="160" help="play/pause"/>
+      <Button up="max1" over="max" action="dialogs.popup()" id="menu" x="127" y="-2" help="menu" tooltiptext="menu"/>
+      <Button up="stop3" action="vlc.stop()" id="stop1.2" x="304" y="206" tooltiptext="stop"/>
+      <Button up="stop1" action="vlc.stop()" id="stop1.1" x="309" y="216" help="stop" tooltiptext="stop"/>
+      <Image id="wire1.4" x="28" y="208" image="wire" action="move"/>
+      <Image id="wire1.5" x="534" y="207" image="wire1" action="move"/>
+      <Button up="next" action="vlc.faster()" id="fast1.1" x="556" y="138" tooltiptext="play fast"/>
+      <Button up="prev" action="vlc.slower()" id="slow1.1" x="36" y="135" tooltiptext="play slow"/>
+      <Button up="fast" action="playlist.next()" id="next1.1" x="580" y="198" tooltiptext="next"/>
+      <Button up="slow" action="playlist.previous()" id="prev1.1" x="7" y="196" tooltiptext="prev"/>
+      <Checkbox state="vlc.isMute" up1="sound" up2="mute" action1="vlc.mute()" action2="vlc.mute()" id="sound1.1" x="270" y="292"/>
+      <Image id="sneek1.1" x="254" y="83" image="sneek" action="move"/>
+      <Slider id="sneek1.2" x="244" y="86" points="(0,0),(150,0)" value="time" tooltiptext="sneek" up="sneek1" help="sneek" visible="not vlc.isStopped"/>
+      <Image id="volume.1" x="249" y="331" image="sneek" action="move"/>
+      <Slider id="volume" x="239" y="334" points="(0,0),(150,0)" value="volume" tooltiptext="Volume: $V%" up="sneek1" help="sneek"/>
+      <Checkbox state="vid.isVisible" up1="video" up2="video" action1="vid.show();audio.hide();" action2="audio.hide()" tooltiptext1="show video" tooltiptext2="hide video" id="vodeo1.2" x="395" y="168"/>
+      <Checkbox state="vid.isVisible" up1="video1" up2="video1" action1="vid.show()" action2="vid.hide()" id="videoplayer" x="326" y="291"/>
+      <Checkbox state="playwin.isVisible" up1="playlist" up2="playlist" action1="playwin.show()" action2="playwin.hide()" tooltiptext1="show playlist" tooltiptext2="hide playlist" id="playlist1.2" x="89" y="316"/>
+      <Checkbox state="equwin.isVisible" up1="equ" up2="equ" action1="equwin.show()" action2="equwin.hide()" tooltiptext1="show equalizer" tooltiptext2="hide equalizer" id="equalizer1.4" x="35" y="245"/>
+      <Image id="timebar" x="291" y="117" image="time2" action="move"/>
+      <Image id="titlebar" x="234" y="130" image="title1" action="move"/>
+      <Text text="$T/$D" font="font" color="#FF0000" id="time1.2" x="297" y="115" width="110" visible="not dvd.isActive"/>
+      <Text text="$T/$D" font="font" color="#FF0000" id="time1.3" x="292" y="117" width="110" visible="dvd.isActive"/>
+      <Text text="$N" font="font" color="#FF0000" id="title1.1" x="235" y="132" width="162" visible="not dvd.isActive"/>
+      <Text text="$N" font="font" color="#FF0000" id="title1.2" x="235" y="133" width="162" visible="dvd.isActive"/>
+      <Checkbox state="abwin.isVisible" up1="about" up2="about" action1="abwin.show()" action2="abwin.hide()" tooltiptext1="About" tooltiptext2="About" id="about1.1" x="468" y="315"/>
+    </Layout>
+  </Window>
+  <Window id="vid" visible="false">
+    <Layout id="vid Layout" width="750" height="513">
+      <Anchor id="Anchor" priority="3"/>
+      <Video id="video1.1" x="25" y="28" width="680" height="381" autoresize="false" rightbottom="rightbottom"/>
+      <Image id="frame1.1" image="frame2" action="move"/>
+      <Button up="close2" action="vlc.quit()" id="close1.5" x="712" y="1" tooltiptext="close"/>
+      <Slider id="volume1.3" x="667" y="36" points="(50,365),(50,0)" value="volume" tooltiptext="volume $V%" up="slidev"/>
+      <Slider id="skeek2.1" x="28" y="423" points="(15,0),(660,0)" value="time" tooltiptext="" up="slides" visible="not vlc.isStopped"/>
+      <Checkbox state="vlc.isPlaying" up1="play3" up2="pause3" action1="vlc.play()" action2="vlc.pause()" tooltiptext1="play/pause" tooltiptext2="play/pause" id="play_pause1" x="87" y="448"/>
+      <Button up="fast1" action="playlist.next()" id="next1.3" x="132" y="452" tooltiptext="next"/>
+      <Button up="prev2" action="vlc.slower()" id="slow1.3" x="8" y="453" tooltiptext="slow"/>
+      <Button up="slow1" action="playlist.previous()" id="prev1.3" x="48" y="453" tooltiptext="previous"/>
+      <Button up="next1" action="vlc.faster()" id="fast1.3" x="169" y="454" tooltiptext="fast"/>
+      <Button up="audio1" action="audio.show();vid.hide()" id="audio1.3" x="630" y="432" tooltiptext="open audio player"/>
+      <Checkbox state="audio.isVisible" up1="audio2" up2="audio2" action1="audio.show()" action2="audio.hide()" tooltiptext1="show audio player" tooltiptext2="hide audio player" id="audioly" x="-2" y="1"/>
+      <Button up="hideaudio" action="vlc.minimize()" id="min1.3" x="686" y="1" tooltiptext="minimize"/>
+      <Button up="snap" action="vlc.snapshot()" id="snapshoot" x="449" y="437" help="snapshoot" tooltiptext="snapshot"/>
+      <Checkbox state="playwin.isVisible" up1="playlist" up2="playlist" action1="playwin.show()" action2="playwin.hide()" tooltiptext1="show playlist" tooltiptext2="hide playlist" id="playlist1.1" x="498" y="447"/>
+      <Checkbox state="equwin.isVisible" up1="equ" up2="equ" action1="equwin.show()" action2="equwin.hide()" tooltiptext1="show equalizer" tooltiptext2="hide equalizer" id="equalizer1.3" x="573" y="443"/>
+      <Text text="$N" font="font" color="#FFFF00" id="trackname" x="44" y="12" width="600" visible="not dvd.isActive"/>
+      <Text text="$N" font="font" color="#FFFF00" id="trackname1" x="44" y="12" width="500" visible="dvd.isActive"/>
+      <Text text="$T /$D" font="font" color="#FFFF00" id="time" x="577" y="12" width="100" visible="not dvd.isActive"/>
+      <Text text="$T /$D" font="font" color="#FFFF00" id="time1" x="577" y="12" width="100" visible="dvd.isActive"/>
+      <Checkbox state="abwin.isVisible" up1="aboutw" up2="aboutw" action1="abwin.show()" action2="abwin.hide()" tooltiptext1="About" tooltiptext2="About" id="About" x="695" y="456"/>
+    </Layout>
+  </Window>
+  <Window id="playwin" visible="false">
+    <Layout id="playwin1.4" width="466" height="320">
+      <Image id="playlist1.4" image="playlist1" action="move"/>
+      <Playtree id="Playtree" font="font" selcolor="#66FFCC" itemimage="arrow" openimage="plus1" closedimage="plus" x="42" y="40" width="373" height="221" rightbottom="rightbottom">
+        <Slider id="playlist Slider" x="437" y="43" points="(0,209),(0,3)" tooltiptext="" up="slide4" rightbottom="rightbottom"/>
+      </Playtree>
+      <Button up="blue" over="blue1" action="playwin.hide()" id="close1.4" x="306" y="10" tooltiptext="close"/>
+      <Button up="add" action="playlist.add()" id="add1.4" x="116" y="261" tooltiptext="add"/>
+      <Button up="add1" action="playlist.del()" id="remove1.4" x="143" y="260" tooltiptext="Remove"/>
+      <Checkbox state="playlist.isRepeat" up1="repeat" up2="repeat2" action1="playlist.setRepeat(true);playlist.setLoop(false)" action2="playlist.setRepeat(false)" tooltiptext1="on repeat" tooltiptext2="off repeat" id="repeat1.4" x="175" y="259"/>
+      <Checkbox state="playlist.isLoop" up1="repeat" up2="repeat1" action1="playlist.setLoop(true);playlist.setRepeat(false)" action2="playlist.setLoop(false)" tooltiptext1="on loop" tooltiptext2="off loop" id="loop1.4" x="247" y="259"/>
+      <Checkbox state="playlist.isRandom" up1="shuffle" up2="shuffle1" action1="playlist.setRandom(true)" action2="playlist.setRandom(false)" tooltiptext1="on loop" tooltiptext2="off loop" id="shuffle1.4" x="211" y="267"/>
+      <Button up="save" action="playlist.save()" id="saveplaylist1.4" x="280" y="256" tooltiptext="save playlist"/>
+      <Button up="load" action="playlist.load()" id="load1.4" x="307" y="253" tooltiptext="load playlist"/>
+      <Button up="sort" action="playlist.sort()" id="sort1.4" x="117" y="13" tooltiptext="sort"/>
+      <Checkbox state="abwin.isVisible" up1="aboutw" up2="aboutw" action1="abwin.show()" action2="abwin.hide()" tooltiptext1="About" tooltiptext2="About" id="Unnamed Checkbox #92" y="131"/>
+    </Layout>
+  </Window>
+  <Window id="equwin" visible="false">
+    <Layout id="equ layout" width="330" height="171">
+      <Image id="eq1.5" image="eq1" action="move"/>
+      <Checkbox state="equalizer.isEnabled" up1="off" up2="on" action1="equalizer.enable()" action2="equalizer.disable()" tooltiptext1="enable" tooltiptext2="disable" id="on/off" x="4" y="82"/>
+      <Image id="title" x="115" y="3" image="equt" action="move"/>
+      <Button up="blue" over="blue1" action="equwin.hide()" id="win" x="299" y="-5" tooltiptext="close"/>
+      <Slider id="preamp" x="80" y="35" points="(0,115),(0,5)" value="equalizer.preamp" up="eqs"/>
+      <Slider id="band1" x="120" y="35" points="(0,115),(0,5)" value="equalizer.band(0)" up="eqs"/>
+      <Slider id="band2" x="140" y="35" points="(0,115),(0,5)" value="equalizer.band(1)" up="eqs"/>
+      <Slider id="band3" x="160" y="35" points="(0,115),(0,5)" value="equalizer.band(2)" up="eqs"/>
+      <Slider id="band4" x="180" y="35" points="(0,115),(0,5)" value="equalizer.band(3)" up="eqs"/>
+      <Slider id="band5" x="200" y="35" points="(0,115),(0,5)" value="equalizer.band(4)" up="eqs"/>
+      <Slider id="band6" x="220" y="35" points="(0,115),(0,5)" value="equalizer.band(5)" up="eqs"/>
+      <Slider id="band7" x="240" y="35" points="(0,115),(0,5)" value="equalizer.band(6)" up="eqs"/>
+      <Slider id="band8" x="260" y="35" points="(0,115),(0,5)" value="equalizer.band(7)" up="eqs"/>
+      <Slider id="band9" x="280" y="35" points="(0,115),(0,5)" value="equalizer.band(8)" up="eqs"/>
+      <Slider id="band10" x="300" y="35" points="(0,115),(0,5)" value="equalizer.band(9)" up="eqs"/>
+    </Layout>
+  </Window>
+  <Window id="abwin" visible="false">
+    <Layout id="about layout" width="420" height="420">
+      <Image id="about1.4" image="aboutq" action="move" action2="abwin.hide()"/>
+    </Layout>
+  </Window>
+
+</Theme>
